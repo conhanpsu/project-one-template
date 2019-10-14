@@ -1,4 +1,36 @@
 /* Enter your Styles below! */
 
+body {background-image: url("");}
+h1 { font-family: helvetica neue; 
+		font-size: 36px;
+		font-weight: bold;}
 
-body { font-family: georgia; }
+nav {font-family: ;}
+
+
+.one {
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	padding: 200px;
+	padding-left: 400px;
+}
+
+.two {
+	display: grid;
+	padding: 200px;
+	padding-left: 400px;
+}
+
+.grid-item-1 {
+	padding: 20px;
+	font-family: helvetica neue;
+	font-size: 14px;
+	text-align: left;
+}
+
+.grid-item-2 {
+	padding: 20px;
+	font-family: helvetica neue;
+	font-size: 14px;
+	text-align: left;
+}
