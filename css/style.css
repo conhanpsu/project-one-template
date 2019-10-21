@@ -1,36 +1,59 @@
 /* Enter your Styles below! */
 
-body {background-image: url("");}
+
+
+body {background-image: url("");
+	background-color: #CFE3E3;}
 h1 { font-family: helvetica neue; 
 		font-size: 36px;
 		font-weight: bold;}
 
-nav {font-family: ;}
+nav {
+	font-family: 'Concert One', cursive;
+	font-size: 20px;
+	}
 
+a:link {color: rgb(130, 156, 199);
+		text-decoration: none;}
 
-.one {
+a:visited {color: white;}
+
+a:hover {text-decoration: underline overline #829CC7;}
+
+main {
 	display: grid;
-	grid-template-columns: 400px 400px 400px;
-	padding: 200px;
-	padding-left: 400px;
+	grid-template-columns: 40% 60%;
+	grid-gap: 10px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	margin: auto;
+	width: 60%;
 }
+
+
+h1 {font-family: 'Concert One', cursive;}
+
+.h1-img {margin-left: -50px;}
 
 .two {
-	display: grid;
-	padding: 200px;
-	padding-left: 400px;
-}
-
-.grid-item-1 {
-	padding: 20px;
+	color: rgb(130, 156, 199);
 	font-family: helvetica neue;
 	font-size: 14px;
-	text-align: left;
-}
+	padding-top: 200px;
+	padding-left: 10px;
+	line-height: 1.5;
 
-.grid-item-2 {
-	padding: 20px;
+} 	
+
+.three {}
+
+footer {color: rgb(130, 156, 199);
 	font-family: helvetica neue;
-	font-size: 14px;
-	text-align: left;
+	font-size: 14px;}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
