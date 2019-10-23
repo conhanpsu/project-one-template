@@ -38,14 +38,23 @@ h1 {font-family: 'Concert One', cursive;}
 .two {
 	color: rgb(130, 156, 199);
 	font-family: helvetica neue;
-	font-size: 14px;
+	font-size: 16px;
 	padding-top: 200px;
 	padding-left: 10px;
 	line-height: 1.5;
 
 } 	
 
-.three {}
+.three {
+	color: rgb(130, 156, 199);
+	font-family: helvetica neue;
+	font-size: 16px;
+	padding-top: 200px;
+	padding-left: 10px;
+	line-height: 1.5;
+}
+
+
 
 footer {color: rgb(130, 156, 199);
 	font-family: helvetica neue;
