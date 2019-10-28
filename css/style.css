@@ -75,7 +75,7 @@ div.gallery img {
 
 .h1-img {margin-left: -50px;}
 
-div.two {font-family: 'Work Sans', sans-serif;
+.two {font-family: 'Work Sans', sans-serif;
 	color: rgb(130, 156, 199);
 	font-size: 16px;
 	padding-top: 200px;
@@ -84,7 +84,7 @@ div.two {font-family: 'Work Sans', sans-serif;
 	background-image: transparent;
 } 	
 
-div.three {
+.three {
 	color: rgb(130, 156, 199);
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
@@ -96,7 +96,7 @@ div.three {
 	background-image: transparent;
 }
 
-div.four {
+.four {
 	color: rgb(130, 156, 199);
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
@@ -110,7 +110,7 @@ div.four {
 	 background-image: transparent;
 }
 
-div.five {
+.five {
 	color: rgb(130, 156, 199);
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
@@ -122,7 +122,7 @@ div.five {
 	background-image: transparent;
 }
 
-div.six {
+.six {
 	color: rgb(130, 156, 199);
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
