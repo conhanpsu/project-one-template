@@ -47,6 +47,28 @@ nav ul {
 nav li { padding: 10px 20px; }
 
 
+
+div.gallery {
+	border-radius: 25px;
+  margin: 10px;
+  float: center;
+  width: 400px;
+  padding-left: 100px;
+}
+
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+
+
+
+
+
 .h1-img {margin-left: -50px;}
 
 .two {font-family: 'Work Sans', sans-serif;
@@ -58,12 +80,14 @@ nav li { padding: 10px 20px; }
 
 } 	
 
-.three {
+div.three {
 	color: rgb(130, 156, 199);
-	font-family: helvetica neue;
+	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
-	padding-top: 200px;
-	padding-left: 10px;
+	display: grid;
+	grid-template-columns: 280%;
+	padding-bottom: 50px;
+	padding-left: 150px;
 	line-height: 1.5;
 }
 
