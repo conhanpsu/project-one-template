@@ -5,8 +5,12 @@
 body {background-image: url("https://i.imgur.com/MsgB7Lu.png");
   background-repeat: no-repeat;
   background-color: #cccccc;
-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 h1 {  
 		font-size: 36px;
 		font-weight: bold;
@@ -71,13 +75,12 @@ div.gallery img {
 
 .h1-img {margin-left: -50px;}
 
-.two {font-family: 'Work Sans', sans-serif;
+div.two {font-family: 'Work Sans', sans-serif;
 	color: rgb(130, 156, 199);
 	font-size: 16px;
 	padding-top: 200px;
 	padding-left: 10px;
 	line-height: 1.5;
-
 } 	
 
 div.three {
@@ -91,7 +94,40 @@ div.three {
 	line-height: 1.5;
 }
 
+div.four {
+	color: rgb(130, 156, 199);
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: 280%;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	line-height: 1.5;
+	background-size: cover;
+	 background-repeat: no-repeat;
+}
 
+div.five {
+	color: rgb(130, 156, 199);
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: 280%;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	line-height: 1.5;
+}
+
+div.six {
+	color: rgb(130, 156, 199);
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: 280%;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	line-height: 1.5;
+}
 
 footer {color: rgb(130, 156, 199);
 	font-family: helvetica neue;
